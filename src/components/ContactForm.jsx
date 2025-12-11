@@ -111,7 +111,7 @@ export default function App() {
       budget: formData.budget,
       message: formData.projectDetails,
     }),
-      })
+  })
 
       if (response.ok) {
         console.log('Contact form sent successfully')
