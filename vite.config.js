@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // Your backend Railway URL (Spring Boot API)
-const backendURL = "http://trivyxa-businesswebsitebackend-production.up.railway.app";
+const backendURL = "https://trivyxa-businesswebsitebackend-production.up.railway.app";
 
 export default defineConfig({
   plugins: [react()],
